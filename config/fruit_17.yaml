@@ -1,0 +1,23 @@
+train: E:\基于改进版的YOLOv8的水果图像识别系统\data\fruit_17\train
+val: E:\基于改进版的YOLOv8的水果图像识别系统\data\fruit_17\val
+test: E:\基于改进版的YOLOv8的水果图像识别系统\data\fruit_17\test
+nc: 17
+names:
+- avocado
+- lemon
+- banana
+- strawberry
+- watermelon
+- mango
+- sugar apple
+- durian
+- apple
+- dragon fruit
+- kiwi
+- orange
+- pomegranate
+- pear
+- jackfruit
+- guava
+- mandarin
+project: Enhanced YOLOv8 Fruit Detection and Classification

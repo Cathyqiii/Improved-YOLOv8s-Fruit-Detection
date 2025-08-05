@@ -1,0 +1,81 @@
+# 模型相关的配置文件
+MODEL:
+  # 模型文件
+  WEIGHT: 'weights/BASC.pt'
+
+  DEVICE: 'cpu'
+  # 阈值
+  DETECTION_THRESHOLD: 0.3
+  # 过滤类别
+  CLASSES: None
+  # 图片大小
+  IMGSIZE: 640
+
+
+UI:
+  # 背景图片
+  background_img: './icon/background.png'
+  # 主图
+  main_img: './icon/zhutu.jpg'
+  # 最上方的名称
+  title: 'YOLOv8水果图像识别与分类系统'
+  # 名称
+  label_title: 'YOLOv8水果图像识别与分类系统'
+  # 开始识别按钮背景颜色
+  start_button_bg: "91,150,127"
+  # 开始识别按钮字体颜色
+  start_button_font: "255,255,255"
+  # 导出数据按钮颜色
+  export_button_bg: "91,166,127"
+  # 导出数据按钮字体颜色
+  export_button_font: "255,255,255"
+  # 图片填充 RGB格式
+  padding_value: [ 170,167,150 ]
+  # 表格每列的宽度
+  column_widths: [90, 210, 120, 120, 120, 120, 120]  # 单位：像素
+  # 表格中字体的颜色 RGB格式
+  column_color: [ 0, 0, 0 ]
+  # 个人信息
+  label_info_txt: "姓名: 许悦                      学号: 212090623                              专业: 数据科学与大数据技术"
+  # 个人信息字体颜色 RGB 格式
+  label_info_color: "236, 195, 44"
+  # 左侧控制区域颜色 RGBA
+  label_control_color: "255,255,255, 80"
+  # 主图区域颜色
+  label_img_color: "255,255,255, 80"
+  # 表格相关
+  table_widget_info_styles:
+    # 表头背景
+    header_background_color: "91,166,127"
+    # 表头字体
+    header_color: "112,63,46"
+    # 表格背景
+    background_color: "200, 196, 182"  # 砂岩灰
+    #滑过背景
+    item_hover_background_color: "200, 222, 210"  # 薄荷绿（悬停）
+
+
+CONFIG:
+  # 摄像头id
+  camera_num: 0
+  #
+  chinese_name: {
+      avocado: "牛油果",
+      lemon: "柠檬",
+      banana: "香蕉",
+      strawberry: "草莓",
+      watermelon: "西瓜",
+      mango: "芒果",
+      sugar apple: "释迦果",
+      durian: "榴莲",
+      apple: "苹果",
+      dragon fruit: "火龙果",
+      kiwi: "猕猴桃",
+      orange: "橙子",
+      pomegranate: "石榴",
+      pear: "梨",
+      jackfruit: "菠萝蜜",
+      guava: "番石榴",
+      mandarin: "橘子",
+      无目标: "无目标"
+  }
